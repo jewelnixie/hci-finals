@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IslaVoyage Travel Co.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <!-- Top Navigation Bar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+              <img src="logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top"> IslavoYage
+            </a>
+
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Home -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <!-- Destinations -->
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="destinationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Destination
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="destinationDropdown">
+                        <a class="dropdown-item" href="#">Beaches and Islands</a>
+                        <a class="dropdown-item" href="#">Mountains and Hiking Trails</a>
+                        <a class="dropdown-item" href="#">Cultural Gateways</a>
+                        <a class="dropdown-item" href="#">Theme Parks and Rides</a>
+                    </div>
+                    </li>
+                    <!-- About Us -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <!-- Contact Us -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+                <a class="btn btn-signin ml-3" href="login.html">Sign In</a>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banaue.jpg" class="d-block w-100" alt="Banaue">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/boracay.jpg" class="d-block w-100" alt="Boracay">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bora.jpg" class="d-block w-100" alt="Bora">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Explore by Interest -->
+        <div class="explore-section">
+            <h2 class="explore-title">Explore by Interest</h2>
+            <div class="image-container">
+                <img src="images/1.png" alt="Image 1">
+                <img src="images/2.png" alt="Image 2">
+                <img src="images/3.png" alt="Image 3">
+                <img src="images/4.png" alt="Image 4">
+                <img src="images/5.png" alt="Image 5">
+            </div>
+        </div>
+        
+        <!-- Discover your next Adventure -->
+        <div class="next-adventure">
+            <div class="explain-adv">
+                <h2>Discover Your Next Adventure</h2>
+                <p>
+                    "Discover your next adventure with IslavoYage Travel Co.! Whether you’re seeking serene beaches, vibrant cities, or hidden cultural treasures, we’re here to make your travel dreams a reality. Each journey is crafted to immerse you in unforgettable experiences and create lifelong memories. Let us guide you to the extraordinary—your next adventure awaits!"
+                </p>
+            </div>
+
+            <div class="adventures">
+                <a href="your-link-here.html" class="adventure-img">
+                    <img src="images/beaches.png" alt="">
+                </a>
+                <a href="your-link-here.html" class="adventure-img">
+                    <img src="images/mountains.png" alt="">
+                </a>
+                <a href="your-link-here.html" class="adventure-img">
+                    <img src="images/cultural.png" alt="">
+                </a>
+                <a href="your-link-here.html" class="adventure-img">
+                    <img src="images/parks.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- divider -->
+        <div class="divider"> </div>
+
+        <!-- Special Offers and Deals -->
+        <div class="special-offers">
+            <div class="special-context">
+                <h2 class="special-offers-title">Special Offers and Deals</h2>
+                <p>"Don’t miss out on exclusive deals and limited-time offers—your dream getaway is closer than you think!"</p>
+            </div>
+
+
+            <!-- Card Slide -->
+            <div class="container">
+                <div class="row">
+                    <div class="splide">
+                        <div class="splide__track">
+                            <div class="splide__list">
+
+                                <!-- Card for Boracay -->
+                                <div class="col-sm-4 splide__slide m-2">
+                                    <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#boracayModal">
+                                        <img src="images/card 1.png" class="card-img-top" alt="Boracay">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Boracay
+                                                <i class="bi bi-heart favorite-icon" onclick="toggleFavorite(this)"></i>
+                                            </h5>
+                                            <p class="card-text">Boracay offers the ultimate tropical paradise with its powdery white sands, turquoise waters, and breathtaking sunsets. Dive into adventure, relaxation, and unforgettable island vibes all in one destination.</p>
+                                            <div class="price-button">
+                                                <p class="price">PHP 2,000.00</p>
+                                                <a href="#" class="btn btn-primary">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Card for El Nido -->
+                                <div class="col-sm-4 splide__slide m-2">
+                                    <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#elNidoModal">
+                                        <img src="images/card 2.png" class="card-img-top" alt="El Nido">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                El Nido Palawan
+                                                <i class="bi bi-heart favorite-icon" onclick="toggleFavorite(this)"></i>
+                                            </h5>
+                                            <p class="card-text">Discover the crystal-clear waters and dramatic limestone cliffs of El Nido, Palawan, where every corner unveils a new natural wonder. Whether you're island hopping or relaxing on secluded beaches.</p>
+                                            <div class="price-button">
+                                                <p class="price">PHP 2,000.00</p>
+                                                <a href="#" class="btn btn-primary">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Card for Mt. Pulag -->
+                                <div class="col-sm-4 splide__slide m-2">
+                                    <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#mtPulagModal">
+                                        <img src="images/card 3.png" class="card-img-top" alt="Mt. Pulag">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Mt.Pulag Hiking Trail
+                                                <i class="bi bi-heart favorite-icon" onclick="toggleFavorite(this)"></i>
+                                            </h5>
+                                            <p class="card-text">Conquer the majestic Mt. Pulag, known for its breathtaking sea of clouds and scenic trails. Experience the thrill of hiking through diverse landscapes.</p>
+                                            <br>
+                                            <div class="price-button">
+                                                <p class="price">PHP 2,000.00</p>
+                                                <a href="#" class="btn btn-primary">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Another Card for Mt. Pulag -->
+                                <div class="col-sm-4 splide__slide m-2">
+                                    <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#mtPulagModal">
+                                        <img src="images/banaue.jpg" class="card-img-top" alt="Mt. Pulag">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Mt.Pulag Hiking Trail
+                                                <i class="bi bi-heart favorite-icon" onclick="toggleFavorite(this)"></i>
+                                            </h5>
+                                            <p class="card-text">Conquer the majestic Mt. Pulag, known for its breathtaking sea of clouds and scenic trails. Experience the thrill of hiking through diverse landscapes.</p>
+                                            <br>
+                                            <div class="price-button">
+                                                <p class="price">PHP 2,000.00</p>
+                                                <a href="#" class="btn btn-primary">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+
+            <!-- Modal for Boracay -->
+            <div class="modal fade" id="boracayModal" tabindex="-1" aria-labelledby="boracayModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="boracayModalLabel" ><b>Boracay Day Tour Package <br> PHP 2,000</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="modal-text" style="text-align: left;">
+                                <br>
+                                <b>Package Inclusions:</b>
+                                <br>
+                                <ul>
+                                    <li>Round-trip Boat Transfers (Caticlan Port to Boracay Island)</li>
+                                    <li>2-Hour Island Hopping Tour (Visit key beaches, caves, and coves)</li>
+                                    <li>Snorkeling Gear (Mask and Snorkel)</li>
+                                    <li>Lunch at a Beachfront Restaurant (Local cuisine with a choice of seafood, chicken, or vegetarian)</li>
+                                    <li>Visit to Puka Beach (Relax on one of the most beautiful and peaceful beaches in Boracay)</li>
+                                    <li>Free Time for Shopping & Sightseeing (Explore D’Mall and the famous White Beach)</li>
+                                </ul>
+                                <br>
+                                <p style="text-align: left;"><b>Schedule:</b></p>
+                                <ul>
+                                    <li>8:00 AM - Meet-up at Caticlan Port</li>
+                                    <li>9:00 AM - Depart for Boracay Island</li>
+                                    <li>10:00 AM - 12:00 PM - Island Hopping and Snorkeling</li>
+                                    <li>12:30 PM - Lunch at a local beachfront restaurant</li>
+                                    <li>1:30 PM - 3:00 PM - Visit to Puka Beach</li>
+                                    <li>3:30 PM - 4:30 PM - Free time for shopping/sightseeing</li>
+                                    <li>5:00 PM - Depart for Caticlan Port</li>
+                                    <li>6:00 PM - Arrive at Caticlan Port</li>
+                                </ul>
+                                <br>
+                                <p style="text-align: left;"><b>Note:</b></p>
+                                
+                                <ul>
+                                    <li>Minimum of 2 persons required for the tour.</li>
+                                    <li>Optional add-ons like parasailing or helmet diving available for an additional fee.</li>
+                                    <li>Tour subject to weather conditions.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Confirm Booking</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal for El Nido Palawan -->
+            <div class="modal fade" id="elNidoModal" tabindex="-1" aria-labelledby="elNidoModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="elNidoModalLabel">El Nido Palawan</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <p style="text-align: left;"><b>Package Inclusions:</b></p>
+                            <ul>
+                                <li>Round-trip transportation from Puerto Princesa to El Nido</li>
+                                <li>Island hopping tour to Big Lagoon, Small Lagoon, and Secret Lagoon</li>
+                                <li>Snorkeling gear provided</li>
+                                <li>Buffet lunch on the beach with seafood, chicken, and vegetarian options</li>
+                                <li>Visit to Nacpan Beach</li>
+                            </ul>
+                            
+                            <br>
+
+                            <p style="text-align: left;"><b>Schedule:</b></p>
+                            <ul>
+                                <li>8:00 AM - Meet-up at Puerto Princesa</li>
+                                <li>9:00 AM - Depart for El Nido</li>
+                                <li>12:00 PM - 1:00 PM - Island hopping and snorkeling at Big Lagoon</li>
+                                <li>1:00 PM - 2:00 PM - Buffet lunch on the beach</li>
+                                <li>2:30 PM - 4:00 PM - Visit to Small Lagoon and Secret Lagoon</li>
+                                <li>4:30 PM - 5:30 PM - Relax and enjoy Nacpan Beach</li>
+                                <li>6:00 PM - Depart back to Puerto Princesa</li>
+                            </ul>
+                            
+                            <br>
+
+                            <p style="text-align: left;"><b>Note:</b></p>
+                            <ul>
+                                <li>Minimum of 2 persons required for the tour</li>
+                                <li>Optional add-ons like kayaking or diving available for an additional fee</li>
+                                <li>Tour subject to weather conditions</li>
+                            </ul>
+                            
+                                                          
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Confirm Booking</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal for Mt. Pulag Hiking Trail -->
+            <div class="modal fade" id="mtPulagModal" tabindex="-1" aria-labelledby="mtPulagModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mtPulagModalLabel">Mt. Pulag Hiking Trail</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Conquer the majestic Mt. Pulag, known for its breathtaking sea of clouds and scenic trails. Whether you're a seasoned hiker or a first-timer, this adventure offers stunning views and unforgettable experiences.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Confirm Booking</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        </div>
+
+        <!-- divider 2 -->
+        <div class="scenery">
+            <img src="images/scenery.jpg" alt="">
+        </div>
+
+        <!-- Why should you choose us?-->
+
+
+        
+        <!-- script src for top navigation -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- script src for carousel -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Bootstrap modals -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- script src for card slide -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+        <script>
+            var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            rewind: true,
+            });
+
+            splide.mount();
+
+            function toggleFavorite(icon) {
+        icon.classList.toggle('active');
+        icon.classList.toggle('bi-heart-fill', icon.classList.contains('active'));
+        icon.classList.toggle('bi-heart', !icon.classList.contains('active'));
+    }
+        </script>
+
+    </body>
+
+
+</html>

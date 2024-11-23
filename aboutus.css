@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* Navigation Bar CCS */
+.navbar {
+    padding: 13px 35px; 
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-left: 30px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-right: 45px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.dropdown-menu a:hover{
+    background-color: #194817;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    border-radius: 5px; 
+}
+  
+.btn-signin {
+    margin-left: 35px; 
+    padding: 8px 17px;
+    color: white;
+    background-color: #194817 ;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn-signin:hover {
+    background-color: #37ac1a;
+}
+
+/* Carousel CSS */
+.carousel-inner .carousel-item img {
+    width: 100%;  
+    height: 565px;  
+    object-fit: cover; 
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    height: 565px;  
+}
+
+.carousel-inner .carousel-item {
+    height: 100%;
+}
+
+/* Explore by Interest CSS */
+.explore-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.explore-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #333;
+    margin-bottom: 55px;
+    margin-top: 100px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-container img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        max-width: 120px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container img {
+        max-width: 100px; 
+    }
+}
+
+/*Intro*/
+.custom-section {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-icon {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.custom-image-box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.custom-image-shape {
+    width: 350px;
+    height: 350px;
+    background: url('intro.jpg');
+    border-radius: 0; /* Reset border radius */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Add rounded corners to the top-left and bottom-right only */
+.custom-image-shape {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    border-left: 4px solid #6c757d;
+    padding-left: 15px;
+}
+
+/*Company profile section*/
+
+.company-profile-section p{
+    font-size: 20px;
+}
+
+.company-profile-section h2{
+    font-size: 45px;
+    margin-top: 200px;
+}
+
+.company-profile-section img{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+img{
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 3px 12px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 12px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 12px -3px rgba(0,0,0,0.75);
+}
+
+.p1{
+    font-weight: lighter;
+    color: gray;
+    font-size: 21px;
+}
+
+p{
+    font-weight: lighter;
+    color: gray;
+}
+
+/*Icons */
+small{
+    font-weight: bold;
+    color: gray;
+}
+
+.fa-facebook{
+    color: blue;
+    font-size: 21px;
+}
+
+.fa-twitter{
+    color: rgb(61, 61, 221);
+    font-size: 21px;
+    padding: 0 10px;
+}
+
+.fa-instagram{
+    color: rgb(173, 0, 29);
+    font-size: 21px;
+}
+
+/*Meet our Team Sectiom*/
+.team {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.team h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.team p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.team-img {
+    width: 100%;
+    max-width: 120px; /* Set a consistent size */
+    height: 120px; /* Maintain uniform height */
+    object-fit: cover;
+    border-radius: 50%; /* Make the image circular */
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team small {
+    display: block;
+    margin-top: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.team span {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.team span i {
+    transition: color 0.3s;
+}
+
+.team span i:hover {
+    color: #007bff;
+}
+
+.team-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.team-card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Hidden details by default */
+.team-details {
+    display: none;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+/* Show details on hover */
+.team-card:hover .team-details {
+    display: block;
+}
+
+/*Gallery Section*/
+.gallery-section {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin-top: 200px;
+}
+
+.gallery-section h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #888;
+    letter-spacing: 2px;
+}
+
+.gallery-section h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery-item img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Map Section Styling */
+.map-section {
+    background-color: #ffffff;
+    padding: 60px 15px;
+}
+
+.map-section .container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #6c757d;
+}
+
+.map-section{
+    margin-top: 200px;
+}
+
+.map-container {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 600px;
+}
+
+.map-container iframe {
+    border: none;
+    border-radius: 10px;
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+}
+
+
+/*Footer Section*/
+.footer {
+    background: #194817; /* Updated to your preferred color */
+    color: #ffffff; /* White text */
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer .social-icons a {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    transform: translateY(-5px);
+    color: #000000; /* Bootstrap primary color */
+}
+
+.footer form .btn {
+    background-color: #000000; /* Primary button color */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.footer form .btn:hover {
+    background-color: #000000; /* Darker shade on hover */
+}
